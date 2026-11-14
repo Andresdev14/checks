@@ -22,7 +22,6 @@ export class NetManager {
           break
         }
       }
-      if (targetNetwork !== null && targetNetwork !== network) break
     }
 
     // If no existing network found, create a new one
